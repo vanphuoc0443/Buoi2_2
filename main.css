@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #bfdbfe 0%, #dbeafe 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.khung-chinh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-dang-nhap {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.tieu-de {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.nhom-input {
+    margin-bottom: 20px;
+}
+
+.nhan {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.o-nhap {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+.o-nhap:focus {
+    border-color: #3b82f6;
+}
+
+.nut-dang-nhap {
+    width: 100%;
+    padding: 12px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.nut-dang-nhap:hover {
+    background: #2563eb;
+}
+
+.lien-ket {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.lien-ket a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.lien-ket a:hover {
+    text-decoration: underline;
+}
